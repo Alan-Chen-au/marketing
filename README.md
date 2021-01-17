@@ -19,9 +19,9 @@
    
 2, Get jar file from : target/marketing-0.1-jar-with-dependencies.jar 
 
-3, Run from jar : marketing-0.1-jar-with-dependencies.jar 
+3, Run from jar (assume JDK 8 has been installed in your local host); COMMAND is shown below : 
 
-   COMMAND : java -jar marketing-0.1-jar-with-dependencies.jar /path/to/email_template.json /path/to/customers.csv /path/to/output_emails/ /path/to/errors.csv
+   java -jar marketing-0.1-jar-with-dependencies.jar /path/to/email_template.json /path/to/customers.csv /path/to/output_emails/ /path/to/errors.csv
    
    
    
