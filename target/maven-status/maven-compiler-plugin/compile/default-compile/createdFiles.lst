@@ -1,0 +1,9 @@
+exchange/pi/marketing/entity/Customer.class
+exchange/pi/marketing/util/CustomerUtils.class
+exchange/pi/marketing/App.class
+exchange/pi/marketing/util/StringUtils.class
+exchange/pi/marketing/util/EmailTemplateUtils.class
+exchange/pi/marketing/entity/Email.class
+exchange/pi/marketing/util/FileUtils.class
+exchange/pi/marketing/email/EmailWorker.class
+exchange/pi/marketing/util/EmailAddressUtils.class

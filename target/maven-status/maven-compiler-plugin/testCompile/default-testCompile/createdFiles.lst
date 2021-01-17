@@ -1,0 +1,7 @@
+exchange/pi/marketing/AppTest.class
+exchange/pi/marketing/gson/GsonTest.class
+exchange/pi/marketing/util/CustomerUtilsTest.class
+exchange/pi/marketing/util/EmailAddressUtilsTest.class
+exchange/pi/marketing/email/EmailWorkerTest.class
+exchange/pi/marketing/util/StringUtilsTest.class
+exchange/pi/marketing/util/EmailTemplateUtilsTest.class
