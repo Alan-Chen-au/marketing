@@ -23,5 +23,18 @@
 
    java -jar marketing-0.1-jar-with-dependencies.jar /path/to/email_template.json /path/to/customers.csv /path/to/output_emails/ /path/to/errors.csv
    
+4, output email file name format like : michelle.smith@example.com.json. 
+  
+==============================================================================
+
+1, pull the docker image from dockerhub : alanchenau/marketing:v0.1
+  
+2, Run command : docker run -it  alanchenau/marketing:v0.1 
+
+3 Run from jar; COMMAND is shown below : 
+
+  java -jar marketing-0.1-jar-with-dependencies.jar /path/to/email_template.json /path/to/customers.csv /path/to/output_emails/ /path/to/errors.csv
+ 
+4, output email file name format like : michelle.smith@example.com.json.  
    
    
