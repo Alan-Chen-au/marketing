@@ -27,7 +27,7 @@
   
 ==============================================================================
 
-1, pull the docker image from dockerhub : alanchenau/marketing:v0.1
+1, pull docker image from dockerhub : alanchenau/marketing:v0.1
   
 2, Run command : docker run -it  alanchenau/marketing:v0.1 
 
