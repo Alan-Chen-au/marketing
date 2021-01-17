@@ -13,8 +13,6 @@ public class App {
 	private static final Logger log = Logger.getLogger(App.class);
 	
     public static void main( String[] args ) {
-    	// config log file
-    	// BasicConfigurator.configure();
         if (args == null || args.length != 4) {
         	log.error("4 Files (Input parameter) are required.");
         	log.info("Please follow the command as below : ");

@@ -1,0 +1,16 @@
+[
+  {
+    "from": "ab<c@gmail.com",
+    "to": "John@gmail.com",
+    "subject": "Hi John, has new product. ",
+    "mimeType": "text/plain",
+    "body": "welcome back 111 !!!"
+  },
+  {
+    "from": "kk<k@gmail.com",
+    "to": "Mick@gmail.com",
+    "subject": "Hi Mick, has new product. ",
+    "mimeType": "text/plain",
+    "body": "welcome back 222 !!!"
+  }
+]

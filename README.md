@@ -1,53 +1,27 @@
 # marketing
 
 
-********************************
+****************************************************************
 
-1) Based on the doc - PI.EXCHANGE_Software Engineer Case Study_20201021.pdf, 
-   the subject value in the email template is "A new product is being launched soon...". 
-   However the value in the sample email template is "{{FIRST_NAME}}, a new product is being launched soon...". 
-   I assume that the doc is correct. Because the value in the sampe output_email.json is "A new product is being launched soon...". 
+1) JDK 8 is required for compiling and running this project. 
 
-2) In the most case, there should be more than one customer in customers.csv. So I merge all output content into one file. 
-   Please be aware that there will be one curly-braces around the json content. 
+2) Based on the doc - PI.EXCHANGE_Software Engineer Case Study_20201021.pdf, 
+   the subject value in the email template is "A new product is being launched soon...";  
+   however the value in the sample email template is "{{FIRST_NAME}}, a new product is being launched soon...". 
+   So the email template is dynamic; but I assume that both subject and body may have the placeholder;  
+   other attributes do no have any placeholder. PLEASE LET ME KNOW IF THIS ASSUMPTION IS NOT CORRECT. 
+   
+*****************************************************************************
 
-[
-  {
-    "from": "The Marketing Team<marketing@example.com",
-    "to": "john.smith@example.com",
-    "subject": "A new product is being launched soon...",
-    "mimeType": "text/plain",
-    "body": "Hi Mr John Smith,\nToday, 17 Jan 2021 , we would like to tell you that... Sincerely,\nThe Marketing Team"
-  }
-]
+1, Get the source code from github : 
 
-or 
+   URL : https://github.com/Alan-Chen-au/marketing.git
+   
+2, Get jar file from : target/marketing-0.1-jar-with-dependencies.jar 
 
-[
-  {
-    "from": "The Marketing Team<marketing@example.com",
-    "to": "john.smith@example.com",
-    "subject": "A new product is being launched soon...",
-    "mimeType": "text/plain",
-    "body": "Hi Mr John Smith,\nToday, 17 Jan 2021 , we would like to tell you that... Sincerely,\nThe Marketing Team"
-  },
-  {
-    "from": "The Marketing Team<marketing@example.com",
-    "to": "michelle.smith@example.com",
-    "subject": "A new product is being launched soon...",
-    "mimeType": "text/plain",
-    "body": "Hi Mrs Michelle Smith,\nToday, 17 Jan 2021 , we would like to tell you that... Sincerely,\nThe Marketing Team"
-  }
-]
+3, Run from jar : marketing-0.1-jar-with-dependencies.jar 
 
-not like sample output file - output_email.json. 
-
-  {
-    "from": "The Marketing Team<marketing@example.com",
-    "to": "john.smith@example.com",
-    "subject": "A new product is being launched soon...",
-    "mimeType": "text/plain",
-    "body": "Hi Mr John Smith,\nToday, 17 Jan 2021 , we would like to tell you that... Sincerely,\nThe Marketing Team"
-  }
-
-********************************
+   COMMAND : java -jar marketing-0.1-jar-with-dependencies.jar /path/to/email_template.json /path/to/customers.csv /path/to/output_emails/ /path/to/errors.csv
+   
+   
+   
